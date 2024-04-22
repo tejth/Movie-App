@@ -10,7 +10,6 @@ Welcome to the Movie App! This is a simple web application that allows users to 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 
 
@@ -87,9 +86,6 @@ Contributions to this project are welcome! Here's how you can contribute:
 5. Push to the branch (`git push origin feature/new-feature`).
 6. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## APILinks
 
