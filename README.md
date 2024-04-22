@@ -6,10 +6,14 @@ Welcome to the Movie App! This is a simple web application that allows users to 
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
+- [Learnings](#learning)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+
+
+
 
 ## Features
 
@@ -24,6 +28,32 @@ Welcome to the Movie App! This is a simple web application that allows users to 
 - JavaScript (ES6+)
 - The Movie Database (TMDb) API for movie data
 
+## Learning
+
+1. Learned how to use translate and transform properties to show details of movie when user hovers over it.
+2. Learned how to use "TMDB" API and fetch data using JS and display it on the frontend.
+
+```javascript
+      const API_URL =
+        "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=ed7756aa2650fb383eb9f4724bb243d9&page=1";
+      const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
+      const SEARCH_API =
+        'https://api.themoviedb.org/3/search/movie?api_key=ed7756aa2650fb383eb9f4724bb243d9&query="';
+      
+      const main = document.getElementById("main");
+      const form = document.getElementById("form");
+      const search = document.getElementById("search");
+      
+      // Get initial movies
+      getMovies(API_URL);
+      
+      async function getMovies(url) {
+        const res = await fetch(url);
+        const data = await res.json();
+      
+        showMovies(data.results);
+      }
+```
 ## Getting Started
 
 To run this project locally, follow these steps:
@@ -60,3 +90,9 @@ Contributions to this project are welcome! Here's how you can contribute:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## APILinks
+
+[Authentication Documentation](https://developer.themoviedb.org/docs/authentication-application)
+
+[API Settings](https://www.themoviedb.org/settings/api)
