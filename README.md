@@ -1,4 +1,5 @@
-﻿# Movie App  <a href="tejth-movieinfo.netlify.app">
+﻿# Movie App 
+<a href="tejth-movieinfo.netlify.app">Open Site </a>
 
 Welcome to the Movie App! This is a simple web application that allows users to search for movies and view their details.
 
