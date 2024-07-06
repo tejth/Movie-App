@@ -1,4 +1,4 @@
-﻿# Movie App
+﻿# Movie App  ( tejth-movieinfo.netlify.app )
 
 Welcome to the Movie App! This is a simple web application that allows users to search for movies and view their details.
 
