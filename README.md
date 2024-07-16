@@ -1,7 +1,8 @@
 ﻿# Movie App 
-                    
-  
+https://github.com/user-attachments/assets/8d0fcb32-505c-4523-ac6c-3ff3b0546d0c
 
+
+                    
 Welcome to the Movie App! This is a simple web application that allows users to search for movies and view their details.
 
 ## Table of Contents
